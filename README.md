@@ -8,6 +8,11 @@
 
 The objective of this project will be to predict the value of the Ibovespa index. This index is followed by the main financial institutions in the country and is the thermometer of the Brazilian economy. It is composed of around 90 companies, to be part of the index companies must meet certain criteria, thus the index composition is periodically reviewed by the stock exchange (B3). Each company has a weight in the index related to its market cap, according to data released by B3 in March/2023, the companies with the greatest weight in the index are Vale, Itaú and Petrobras. The combination of the price of the shares that make up the index and the respective weight of each company, results in a value in points for the Ibovespa.
 
+
+
+
+
+
 #### Rationale
 
 The projection of some indices (Nasdaq, Dow Jones, S&P 500, etc) created by the stock exchanges, it is important for investment analysts to decide on the investment in a country and for the stock exchanges themselves for the purpose of budgetary projections and planning.
@@ -37,17 +42,22 @@ As the dataset used is a time series, some techniques will be applied to project
 - Model 1 - Forecast with Decomposition Models: using STLForecast with ARIMA Model.
 - Model 2 - ARIMA Model (using autoARIMA)
 - Model 3 - Decision Tree
-- Model 4 - LSTM
+- Model 4 - LSTM (Univariate time series)
 - Model 5 - LSTM (Multivariate time series)
 
 
 #### Results
 What did your research find?
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Evaluation Metric | Model 1      | Model 2      | Model 3      | Model 4      | Model 5       |
+| ----------------- | -------------| -------------| -------------| -------------| ------------- |
+| MAE               | 9804.08      | 6307.40      | 1197.43      | 2168.88      | 1344.52       |
+| RMSE              | 12380.87     | 7229.78      | 3383.60      | 2631.31      | 1989.30       |
+| MAPE              | 9.08%        | 5.65%        | 1.09 %       | 1.94%        | 1.34%         |
+
+
+#### Next Steps and Recommendations
+
 
 
 #### Outline of project
