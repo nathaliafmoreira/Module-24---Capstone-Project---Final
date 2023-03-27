@@ -8,9 +8,17 @@
 
 The objective of this project will be to predict the value of the Ibovespa index. This index is followed by the main financial institutions in the country and is the thermometer of the Brazilian economy. It is composed of around 90 companies, to be part of the index companies must meet certain criteria, thus the index composition is periodically reviewed by the stock exchange (B3). Each company has a weight in the index related to its market cap, according to data released by B3 in March/2023, the companies with the greatest weight in the index are Vale, Itaú and Petrobras. The combination of the price of the shares that make up the index and the respective weight of each company, results in a value in points for the Ibovespa.
 
+The graph below shows the evolution of the IBOVESPA index in recent years:
 
+![image](https://user-images.githubusercontent.com/116108563/228059606-2a5641fc-5e75-41e2-bd3e-8a3c51fd8241.png)
 
+In the graph above we can see that we have two points that deserve to be highlighted:
 
+- In 2016, Brazil faced a year of political instability resulting in the impeachment of the president who was in government. This period was one of great volatility on the stock exchange due to market uncertainty.
+
+- In the year 2020, with the explosion of cases of covid 19, the stock exchange had to trigger the circuit breaker 6 times in a period of 8 trading sessions. This procedure interrupts the trading of assets on the stock exchange at unusual market times. It is not possible to carry out trades on the exchange during this period.
+
+From the graph we can also see that there is a growing trend, so this time series is clearly not stationary.
 
 
 #### Rationale
