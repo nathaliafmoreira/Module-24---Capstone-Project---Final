@@ -4,7 +4,7 @@
 
 **Nathalia Moreira**
 
-#### Executive summary
+#### 1. Executive summary
 
 The objective of this project will be to predict the value of the Ibovespa index. This index is followed by the main financial institutions in the country and is the thermometer of the Brazilian economy. It is composed of around 90 companies, to be part of the index companies must meet certain criteria, thus the index composition is periodically reviewed by the stock exchange (B3). Each company has a weight in the index related to its market cap, according to data released by B3 in March/2023, the companies with the greatest weight in the index are Vale, Itaú and Petrobras. The combination of the price of the shares that make up the index and the respective weight of each company, results in a value in points for the Ibovespa.
 
@@ -21,14 +21,15 @@ In the graph above we can see that we have two points that deserve to be highlig
 From the graph we can also see that there is a growing trend, so this time series is clearly not stationary.
 
 
-#### Rationale
+#### 2. Rationale
 
 The projection of some indices (Nasdaq, Dow Jones, S&P 500, etc) created by the stock exchanges, it is important for investment analysts to decide on the investment in a country and for the stock exchanges themselves for the purpose of budgetary projections and planning.
 
-#### Research Question
+#### 3. Research Question
+
 The main objective of the project is to predict the IBOVESPA index, of the stock exchange (B3) in the short and long term: to know how many "points" the index will have at the close of the next day (short term) and how many points the index will have in a period of approximately one year ahead
 
-#### Data Sources
+#### 4. Data Sources
 
 To obtain historical data, it was initially planned to consult B3's own website, but historical information is better structured on the Yahoo Finance website. The period from Jan/11 to Feb/2023 was used.
 
@@ -44,7 +45,7 @@ Annual macroeconomic data for Brazil:
 https://databank.worldbank.org/reports.aspx?source=2&series=NY.GDP.MKTP.KD.ZG&country=BRA#
 
 
-#### Methodology
+#### 5. Methodology
 
 As the dataset used is a time series, some techniques will be applied to project Ibovespa:
 - Model 1 - Forecast with Decomposition Models: using STLForecast with ARIMA Model.
@@ -54,7 +55,7 @@ As the dataset used is a time series, some techniques will be applied to project
 - Model 5 - LSTM (Multivariate time series)
 
 
-#### Results
+#### 6. Results
 What did your research find?
 
 | Evaluation Metric | Model 1      | Model 2      | Model 3      | Model 4      | Model 5       |
@@ -64,8 +65,9 @@ What did your research find?
 | MAPE              | 9.08%        | 5.65%        | 1.09 %       | 1.94%        | 1.34%         |
 
 
-#### Next Steps and Recommendations
+#### 7. Recommendations
 
+#### 8. Next Steps
 
 
 #### Outline of project
