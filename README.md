@@ -67,8 +67,24 @@ What did your research find?
 
 #### 7. Recommendations
 
+Based on the observed results, we can conclude that:
+- Long-term projections are less accurate
+- Short-term projections are more accurate
+
+Predicting an index composed of shares of several companies over a very long period of time can serve to guide strategic planning and for longer-term budgeting purposes. Given that for these purposes it is not necessary to have an exact index quotation number.
+For this purpose, my recommendation is to use models 1 and 2 that use the ARIMA method, since the decision tree model needs very long series to project long periods.
+If it is necessary to project the index for a year from now, I recommend that the model be retrained every quarter, including the most recent periods for monitoring and route adjustment if necessary.
+
+For short-term forecasts, for example, knowing whether the stock market will go up or down the next day, the more accurate the better the model, because based on that, individual investors, investment banks, brokers, funds, define their application strategies to get better return. In this case, my recommendation would be to use model 04, which has a smaller error for short-term projections.
+
 #### 8. Next Steps
 
+Some improvements could be integrated to increase the quality of the projections of the analyzed models.
+For example:
+- Depending on the use, carry out the individual projection of the stocks and not the index as a whole, because this better directs investment decision-making.
+- Evaluate other variables that help explain the behavior of the index, such as political instability, quarterly GDP data released by the Central Bank of the Country, among others.
+- In the case of the decision tree, work with a shorter projection period to actually be able to evaluate the performance of the out-of-sample model.
+- Test the models with other hyperparameters.
 
 #### Outline of project
 
