@@ -71,6 +71,11 @@ RMSE is also an error measure, but unlike the others, it gives more weight to ou
 | RMSE              | 12380.87     | 7229.78      | 3383.60      | 2631.31      | 1989.30       |
 | MAPE              | 9.08%        | 5.65%        | 1.09 %       | 1.94%        | 1.34%         |
 
+For all metrics, the smaller the value, the better the model.
+All models had a MAPE below 10%, so they are considered models with good performance, but it is always necessary to pay attention to the use of the model, because some situations require greater precision.
+
+Evaluating the metrics for the 5 models, we found that the models that presented the best performance were models 03 and 05. However, model 03 presented the highest RMSE, which indicates that it has more errors of greater magnitude (outliers). Thus, considering the three metrics, the model that performed best was model 05, which is the model to which the variables of GDP, Interest Rate and Foreign Investment were added to the time series. Model 05, in a macro way, is based on the last 10 days to project the next day.
+
 
 #### 7. Recommendations
 
@@ -79,7 +84,7 @@ Based on the observed results, we can conclude that:
 - Short-term projections are more accurate
 
 Predicting an index composed of shares of several companies over a very long period of time can serve to guide strategic planning and for longer-term budgeting purposes. Given that for these purposes it is not necessary to have an exact index quotation number.
-For this purpose, my recommendation is to use models 1 and 2 that use the ARIMA method, since the decision tree model needs very long series to project long periods.
+For this purpose, my recommendation is to use models 01 and 02 that use the ARIMA method, since the decision tree model (model 03) needs very long series to project long periods.
 If it is necessary to project the index for a year from now, I recommend that the model be retrained every quarter, including the most recent periods for monitoring and route adjustment if necessary.
 
 For short-term forecasts, for example, knowing whether the stock market will go up or down the next day, the more accurate the better the model, because based on that, individual investors, investment banks, brokers, funds, define their application strategies to get better return. In this case, my recommendation would be to use model 04, which has a smaller error for short-term projections.
