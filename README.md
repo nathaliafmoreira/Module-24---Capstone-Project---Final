@@ -59,7 +59,11 @@ As the dataset used is a time series, some techniques will be applied to project
 
 
 #### 6. Results
-What did your research find?
+
+To measure the performance of the models, the metrics: MAE(Mean Absolute Error), RMSE (root mean squared error) and MAPE (Mean absolute percentage error) were applied.
+Basically, the MAE is the average of the difference between the projected value and the realized value, without considering whether this difference is positive or negative, so all differences have the same weight. The MAPE is how much the MAE represents of the total actual values, how much we are wrong in percentage.
+RMSE is also an error measure, but unlike the others, it gives more weight to outliers.
+
 
 | Evaluation Metric | Model 1      | Model 2      | Model 3      | Model 4      | Model 5       |
 | ----------------- | -------------| -------------| -------------| -------------| ------------- |
