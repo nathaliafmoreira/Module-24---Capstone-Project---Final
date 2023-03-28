@@ -67,9 +67,9 @@ RMSE is also an error measure, but unlike the others, it gives more weight to ou
 
 | Evaluation Metric | Model 1      | Model 2      | Model 3      | Model 4      | Model 5       |
 | ----------------- | -------------| -------------| -------------| -------------| ------------- |
-| MAE               | 9804.08      | 6307.40      | 1197.43      | 2168.88      | 1344.52       |
-| RMSE              | 12380.87     | 7229.78      | 3383.60      | 2631.31      | 1989.30       |
-| MAPE              | 9.08%        | 5.65%        | 1.09 %       | 1.94%        | 1.34%         |
+| MAE               | 9804.08      | 6307.40      | 1086.92      | 2231.02      | 1415.07       |
+| RMSE              | 12380.87     | 7229.78      | 3013.84      | 2744.97      | 2069.56       |
+| MAPE              | 9.08%        | 5.65%        | 1.00 %       | 2.00%        | 1.41%         |
 
 For all metrics, the smaller the value, the better the model.
 All models had a MAPE below 10%, so they are considered models with good performance, but it is always necessary to pay attention to the use of the model, because some situations require greater precision.
