@@ -100,7 +100,7 @@ For example:
 
 #### Outline of project
 
-- [Link to notebook]()
+- https://github.com/nathaliafmoreira/Module-24---Capstone-Project---Final/blob/main/Module%2024%20-%20Capstone%20Project%20-%20Ibovespa%20Forecast%20-%20Final.ipynb
 
 ##### Contact and Further Information
 nathaliafmoreira@gmail.com
