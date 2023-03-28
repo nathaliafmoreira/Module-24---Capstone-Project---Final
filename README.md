@@ -23,7 +23,9 @@ From the graph we can also see that there is a growing trend, so this time serie
 
 #### 2. Rationale
 
-The projection of some indices (Nasdaq, Dow Jones, S&P 500, etc) created by the stock exchanges, it is important for investment analysts to decide on the investment in a country and for the stock exchanges themselves for the purpose of budgetary projections and planning.
+The projection of stock indices such as Nasdaq, Dow Jones, S&P 500, and in the case of Brazil the Ibovespa, is an important driver for different participants in the stock market.
+From the point of view of Stock Brokers, Investment Banks, Buy Side and international investors, the variation of these indices in the short and long term directs investment strategies in search of the best risk x return relationship.
+From the perspective of the stock exchange, in the case of Brazil, we have only one company responsible for the capital market infrastructure, which provides trading services in an exchange and OTC environment, the prediction of the index with the main companies traded on the exchange allows the company to be prepared in the long term for projection of transaction capacity, the higher the index, the greater the number of negotiations and for budget and strategic planning, given that the company's revenue is linked to trading on the stock exchange environment. In the short term, in atypical moments, it anticipates warnings to the market about possible volatilities and in extreme cases it prepares the systems and teams for Circuit Breaker cases, for example.
 
 #### 3. Research Question
 
