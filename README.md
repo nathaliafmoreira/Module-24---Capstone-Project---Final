@@ -29,7 +29,8 @@ From the perspective of the stock exchange, in the case of Brazil, we have only 
 
 #### 3. Research Question
 
-The main objective of the project is to predict the IBOVESPA index, of the stock exchange (B3) in the short and long term: to know how many "points" the index will have at the close of the next day (short term) and how many points the index will have in a period of approximately one year ahead
+The main objective of the project is to predict the IBOVESPA index, of the stock exchange (B3) in the short and long term: to know how many "points" the index will have at the close of the next day (short term) and how many points the index will have in a period of approximately one year ahead.
+Short-term and long-term projections are used differently, but are equally important to all parties involved. Despite knowing that the longer the term, the greater the chances of the index suffering abrupt variations due to adverse effects, such as the pandemic, political scenario, crises in specific sectors, international economic scenario with flight of investors to more attractive markets.
 
 #### 4. Data Sources
 
